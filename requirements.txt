@@ -1,0 +1,15 @@
+# Direct dependencies only — pip resolves transitive deps per-platform.
+# Cross-platform safe: works on Windows, macOS, and Linux (CI).
+
+# Test framework
+pytest>=9.0
+pytest-html>=4.2
+pytest-playwright>=0.7
+allure-pytest>=2.13
+
+# API testing
+requests>=2.31
+jsonschema>=4.20
+
+# Performance / load testing
+locust>=2.30
